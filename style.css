@@ -27,7 +27,7 @@ body {
   max-width: 384px;
 
   height: max-content;
-  padding-bottom: 20px;
+  padding-bottom: 2.3rem;
 
   background: hsl(0, 0%, 12%);
   border-radius: 8px;
@@ -35,7 +35,7 @@ body {
   animation-duration: 1s;
   animation-direction: reverse;
 
-  gap: 0.4rem;
+  gap: .7rem;
 }
 
 .social-link-container img {
@@ -80,7 +80,7 @@ p {
 
 .links li {
   width: 80%;
-  height: 40px;
+  height: 55px;
   margin: 0 auto;
   text-align: center;
 
