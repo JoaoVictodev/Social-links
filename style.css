@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  font-family: "Inter", sans-serif;
+  perspective: 7cm;
+}
+
+.social-link-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 384px;
+
+  height: 522px;
+
+  background: hsl(0, 0%, 12%);
+  border-radius: 8px;
+
+  animation-duration: 1s;
+  animation-direction: reverse;
+
+  gap: 0.4rem;
+}
+
+.social-link-container img {
+  width: 80px;
+  height: 80px;
+  background: url(./assets/images/illustration-article.svg) center center
+    no-repeat;
+  background-size: cover;
+  margin: 40px auto 20px auto;
+  border-radius: 50%;
+}
+
+.user {
+  color: hsl(0, 0%, 100%);
+  width: max-content;
+  margin: 0 auto;
+}
+
+.user-location {
+  color: hsl(75, 94%, 57%);
+  width: max-content;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1.125rem;
+}
+
+p {
+  color: hsl(0, 0%, 50%);
+  font-weight: 500;
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 1.125rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1rem;
+}
+
+.links li {
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+
+  display: flex;
+  align-content: center;
+
+  border-radius: 7px;
+  background-color: hsl(0, 0%, 20%);
+
+  position: relative;
+
+  transition: 0.3s ease;
+}
+
+.links li:hover {
+  background: hsl(75, 94%, 57%);
+}
+
+.links li a {
+  position: absolute;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  width: inherit;
+  margin: auto;
+
+  font-weight: 600;
+
+  background-color: transparent;
+
+  align-content: center;
+  width: 100%;
+  height: 100%;
+
+  transition: 0.3s ease;
+}
+
+.links li:hover a {
+  color: hsl(0, 0%, 8%);
+  font-weight: 800;
+}
